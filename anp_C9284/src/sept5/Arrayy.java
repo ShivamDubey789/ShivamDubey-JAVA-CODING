@@ -2,63 +2,71 @@ package sept5;
 
 public class Arrayy {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
-		//created array here 
-		int [] arr = new int[5]; // indexes 0 1 2 3  4 
+		// yaha  banaliya hai array 
+		int [] arr = new int[5] ;// 0 1 2 3 4 
 		
 		
-		for(int i = 0; i<arr.length; i++ ) {
+		
+		arr[0] =  90  ;
+		arr[1] = 98  ;
+		arr[2]  = 9000 ;
+		arr[3] = 8000  ;
+		arr[4] = 8999   ;
+		
+		//arr[5] = 777  ;//arrayindeoutofbond  session
+		
+		
+		
+		
+		
+		// enhance for loop 
+		for(int KuchBhi : arr) {
+			System.out.println(KuchBhi);
 			
+		}
+		
+		for(int i  =0  ; i<arr.length ; i++) {
 			System.out.println(arr[i]);
-			System.out.println("for loop" + i);
+			//System.out.println("for loop " + i);
 		}
+	
 		
 		
-		arr[0] = 90;
+		// array  
+		// in this array you can store multiple numberes 
+		// linear data save kkar skte ho 
+		// when you are creating array a initial array would be there of size what you have defined
+		// of element 0 0 0 0 0
 		
-		arr[1] = 98 ; 
-		
-		arr[2] = 9000 ;
-		
-		
-		
-		arr[3] = 8000;
-		
-		arr[4] = 8999;
-		
-		try {
-			arr[5] = 999; // error .. array out of boud
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} //array index out of bond session
-		
-		//enchanced for loop
-		
-		for(int aa : arr) {
-			System.out.println(aa);
-			System.out.println("for loop");
-		}
-		
-		//Array 
-		//in this array you can store multiple numbers
-		//Array is a facility in java in which you can store linear data 
-		//When you are creating the array .. a initial array would be there
-		// of size what you have defined 
-		
-		arr[2] = 89;
-		
-		String sarr[] = new String[3];
-		
-		sarr[0] = "Sachin";
-		
-		sarr[1] = "pooja";
-		
-		sarr[2] = "hariom";
-		
-		String [] newArr = ("lalaan top","whinstin ","camera walla" );
+		arr[2] = 89  ;
 		
 		
+	 String  sarr []  =  new String[3] ;
+	 
+		
+	 sarr[0] = "sachin" ;
+	 sarr[1] = "pooja " ;
+	 sarr[2] = "hariom" ;
+	 
+	 
+	 String [] newArr = {"lalaan top" , "winstin" , "cameraavaale bhiyaa "} ;
+	 
+	 for (String  g  : newArr) {
+		 
+		 
+		 System.out.println(g) ;
+		 
+	 }
+		
+	 /// new give its size initially  
+	 //it not dynamic 
+	  // it can only at once sigle kind of value 
+	 
+		
+	 
+	   
 	}
+
 }
