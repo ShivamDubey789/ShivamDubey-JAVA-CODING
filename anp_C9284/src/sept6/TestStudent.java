@@ -51,20 +51,20 @@ public class TestStudent {
 		System.out.println("/////////////////////comparator //////////////////////////////");
 		
     List<NewStudent>  listOFNew  = new ArrayList<>() ;
-    listOFNew.add(sr4);
-    listOFNew.add(sr3);
-    listOFNew.add(sr2);
-    listOFNew.add(sr1);
-    listOFNew.add(sr9);
+    	listOFNew.add(sr4);
+    	listOFNew.add(sr3);
+    	listOFNew.add(sr2);
+    	listOFNew.add(sr1);
+    	listOFNew.add(sr9);
     
    // Collections.sort(null, null)
     
- Collections.sort(listOFNew  , new NameComparator()); // assending or decending order mai  on the baises of marks 
+    Collections.sort(listOFNew  , new NameComparator()); // assending or decending order mai  on the baises of marks 
 	
 	
-	for (NewStudent gg:listOFNew) {
-		System.out.println(gg);
-	}
+		for (NewStudent gg:listOFNew) {
+			System.out.println(gg);
+		}
 	
 		
 	}
