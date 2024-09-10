@@ -1,5 +1,6 @@
 package sept10;
 
+import java.lang.reflect.Array;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -36,13 +37,13 @@ public class Basic {
 			System.out.println(map);
 			
 			System.out.println("-------------break--------------");
-			//System.out.println(map.containsKey("Dhoni"));
+			System.out.println(map.containsKey("Dhoni"));
 			
-			//System.out.println(map.containsValue(90));
+			System.out.println(map.containsValue(90));
 			
-			//System.out.println(map.size());
+			System.out.println(map.size());
 			
-			//map.putIfAbsent("Dhoni",100);
+			map.putIfAbsent("Dhoni",100);
 			
 			Set<Entry<String , Integer>> newSet = map.entrySet();
 			
@@ -52,5 +53,9 @@ public class Basic {
 					System.out.println(ee.getKey() +"--------->"+ee.getValue());
 				}
 			
+				
+				
+				
+				System.out.println(newSet);
 	}
 }
