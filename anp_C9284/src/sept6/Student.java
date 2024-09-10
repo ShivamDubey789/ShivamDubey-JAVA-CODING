@@ -1,22 +1,11 @@
 package sept6;
 
-public class Student {
-
-	private int id;
-	private String name;
-	private int marks;
+public class Student implements Comparable<Student>{
 	
-	public Student() {};
-	public Student(int id, String name, int i) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.marks = i;
-	}
-	@Override
-	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", marks=" + marks + "]";
-	}
+	private int id  ;
+	private String name  ;
+	private int marks  ;
+	
 	public int getId() {
 		return id;
 	}
@@ -35,6 +24,36 @@ public class Student {
 	public void setMarks(int marks) {
 		this.marks = marks;
 	}
+	public Student(int id, String name, int marks) {
+	
+		this.id = id;
+		this.name = name;
+		this.marks = marks;
+	}
+	
+	public Student() {}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", marks=" + marks + "]";
+	}
 	
 	
+	@Override
+	public int compareTo(Student o) {
+		// TODO Auto-generated method stub
+		
+		if(this.marks == o.marks)
+		{
+			return this.name.compareTo(o.name);
+		}else if (this.marks > o.marks) {
+			return 1 ;
+		}else {
+			return  -1 ;
+		}
+	}
+	
+	
+	
+	
+
 }
