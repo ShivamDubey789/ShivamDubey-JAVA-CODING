@@ -2,7 +2,7 @@ package sept6.practiceAndalsoQuestions.lab3;
 
 
 
-public class HillStations {
+public class HillStation {
 
 	//method location created for hillstations 
 	public void location() {
@@ -22,7 +22,7 @@ public class HillStations {
 	public static void main(String[] args) {
 		
 		//Hillstations object created and its methods are called
-		HillStations hill = new HillStations();
+		HillStation hill = new HillStation();
 		
 		
 		hill.location();
@@ -32,8 +32,8 @@ public class HillStations {
 		System.out.println("");
 		
 		
-		//Manali object created and its methods are called
-		Manali man = new Manali();
+		//Hillstation object created with subclass's /child class  to override and its methods are called
+		HillStation man = new Manali();
 		
 	
 		man.location();
@@ -41,16 +41,16 @@ public class HillStations {
 		
 		System.out.println("");
 		
-		//Mussoorie object created and its methods are called
-		Mussoorie mus = new Mussoorie();
+		
+		HillStation mus = new Mussoorie();
 		
 		mus.location();
 		mus.famousFor();
 		
 		System.out.println("");
 		
-		//Gulmarg object created and its methods are called
-		Gulmarg gul = new Gulmarg();
+		
+		HillStation gul = new Gulmarg();
 		gul.location();
 		gul.famousFor();
 		
