@@ -1,5 +1,4 @@
-package sept6.practiceAndalsoQuestions;
-
+package sept6.practiceAndalsoQuestions.lab3;
 
 // class created Employee which is extending User1day3
 public class Employee extends User1day3 {
