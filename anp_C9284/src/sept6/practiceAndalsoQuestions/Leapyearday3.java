@@ -1,4 +1,4 @@
-package sept6;
+package sept6.practiceAndalsoQuestions;
 
 import java.util.*;
 
