@@ -1,6 +1,6 @@
 package sept6.practiceAndalsoQuestions.lab3;
 
-public class User1day3 {
+class User1day32 {
 	
 	// integer variable declared name id
 	int id;
@@ -8,11 +8,11 @@ public class User1day3 {
 	String name; 
 	
 	// default constructor created
-	public User1day3(){}; 
+	public User1day32(){}; 
 	
 	
 	//parameterized constructor created
-	public User1day3(int id, String name) {
+	public User1day32(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -47,8 +47,40 @@ public class User1day3 {
 	}
 
 
-	//main method is create here
-	public static void main(String[] args) {
+	
+
+}
+
+//class created Employee which is extending User1day3
+class Employee extends User1day32 {
+
+	
+	//Variable declared with double data type named Salary
+	double salary;
+	
+	
+	//getter method created for salary
+	public double getSalary() {
+		return salary;
+	}
+
+	//setter method created for salary
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	//calculateAnnualSalary method created with return type double which is simply multiplying salary with total number of months 
+	public double calculateAnnualSalary() {
+		
+		return salary * 12;
+		
+	}
+	
+}
+
+class User{
+	
+public static void main(String[] args) {
 		
 		//class employee's object was created named emp.
 		Employee emp = new Employee();
@@ -73,6 +105,5 @@ public class User1day3 {
 		System.out.println("Employee annualsalary : "+annualSalary);
 
 	}
-
 }
 

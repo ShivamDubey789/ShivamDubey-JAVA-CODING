@@ -1,4 +1,4 @@
-package sept4;
+package sept6.practiceAndalsoQuestions.lab3;
 
 public class Bank {
 
