@@ -68,5 +68,11 @@ public class LinkedListt {
 			list.add(list, 32);
 			
 			list.print(list);
+			
+			//2 4 16 88 90 
+			// 3 7 78 80 100
+			
+			//there are two array you need to create single array that should be sorted
+			
 	}
 }
