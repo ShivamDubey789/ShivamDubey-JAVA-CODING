@@ -1,13 +1,23 @@
 package sept12;
 
+
+
 public class ThreadA  extends Thread{
+	
 	
 	//code everything that you want to run parallel to Main
 	public void run() {
 		
 		
-		for(int i = 51 ; i<=100; i++)
+		for(int i = 51 ; i<=100; i++) {
+			
+		String s = Thread.currentThread().getName();
+				
+		int pri = Thread.currentThread().getPriority();
 		System.out.println(i + "-------------> i am SHIVAM");
+		}
+		
+		
 	}
 
 }
