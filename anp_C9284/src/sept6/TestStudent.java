@@ -70,14 +70,14 @@ public class TestStudent {
 		System.out.println("???????????????????????");
 		
 		// in tree set you need to give Comparator in brackets()
-		TreeSet<NewStudent> treeSet = new TreeSet<NewStudent>(new NameComparator());
+		//TreeSet<NewStudent> treeSet = new TreeSet<NewStudent>(new NameComparator());
 		
-		treeSet.add(sr4); 
-		treeSet.add(sr3); 
-		treeSet.add(sr2); 
-		treeSet.add(sr1); 
+		//treeSet.add(sr4); 
+		//treeSet.add(sr3); 
+		//treeSet.add(sr2); 
+		//treeSet.add(sr1); 
 		
-		System.out.println(treeSet);
+		//System.out.println(treeSet);
 	}
 
 }
