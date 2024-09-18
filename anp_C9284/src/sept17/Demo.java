@@ -19,7 +19,7 @@ public class Demo {
 			//Released tt locks
 			try {
 				synchronized(tt) { // here we get lock of tt object and here main method will start waiting till it is not notified
-				tt.wait();
+				tt.wait();// This method release the lock 
 				}
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
