@@ -13,7 +13,7 @@ public class Main {
 				new PrintingNames("Priya"),new PrintingNames("Sammy"),new PrintingNames("Avaraj")};
 	
 	
-		ExecutorService service = Executors.newFixedThreadPool(1000);
+		ExecutorService service = Executors.newFixedThreadPool(10);
 		
 		for(PrintingNames oo : arrOfPrint) {
 			service.submit(oo);

@@ -20,7 +20,6 @@ public class PrintingNames  implements Runnable{
 			e.printStackTrace();
 		}
 	
-		System.out.println(name + "  --job is Started by----> " +Thread.currentThread().getName());
 		
 	}
 	

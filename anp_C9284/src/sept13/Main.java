@@ -8,6 +8,9 @@ public class Main {
 		
 		Thread gg = new Thread(tt);
 		
+		
+		
+		
 		gg.start();
 		
 		try {
