@@ -1,6 +1,11 @@
 package codingTest;
 
-public class FindmissingNumber {
+
+
+// Find the Missing Number: Given an array
+// containing n distinct numbers taken from 0,1,2,3 ... n
+// fi
+ public class FindmissingNumber {
 	
 	public static void main(String[] args) {
 		
@@ -19,10 +24,13 @@ public class FindmissingNumber {
 			System.out.println(num);
 			num = num -1 ;
 			
+			if(num == 0) {
+				
+			}
 			}
 	
 		
-		System.out.println();
+		
 		
 		}
 		
